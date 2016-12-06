@@ -15,6 +15,12 @@
 		E2315A5A1DF5604200DF1866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2315A581DF5604200DF1866 /* LaunchScreen.storyboard */; };
 		E2315A651DF5604200DF1866 /* BarrageRenderer_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2315A641DF5604200DF1866 /* BarrageRenderer_demoTests.m */; };
 		E2315A701DF5604200DF1866 /* BarrageRenderer_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2315A6F1DF5604200DF1866 /* BarrageRenderer_demoUITests.m */; };
+		E2854F351DF64CF00006D1DB /* SafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E2854F341DF64CF00006D1DB /* SafeObject.m */; };
+		E2854F381DF65CC80006D1DB /* UIImage+Barrage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2854F371DF65CC80006D1DB /* UIImage+Barrage.m */; };
+		E2854F3A1DF65DCD0006D1DB /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = E2854F391DF65DCD0006D1DB /* avatar.png */; };
+		E2854F3D1DF660E80006D1DB /* AdvancedBarrageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2854F3C1DF660E80006D1DB /* AdvancedBarrageController.m */; };
+		E2854F401DF665860006D1DB /* BarrageWalkImageTextSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = E2854F3F1DF665860006D1DB /* BarrageWalkImageTextSprite.m */; };
+		F6EAB237E2F0869239CE5301 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AC7A7008EBF14D550D5B96 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48AC7A7008EBF14D550D5B96 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F761C697711D0DAB03E855C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B79CD5B9D6C729AFB2CC0A29 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E2315A471DF5604200DF1866 /* BarrageRenderer_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarrageRenderer_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2315A4B1DF5604200DF1866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2315A4D1DF5604200DF1866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,15 @@
 		E2315A6B1DF5604200DF1866 /* BarrageRenderer_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrageRenderer_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2315A6F1DF5604200DF1866 /* BarrageRenderer_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageRenderer_demoUITests.m; sourceTree = "<group>"; };
 		E2315A711DF5604200DF1866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2854F331DF64CF00006D1DB /* SafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeObject.h; sourceTree = "<group>"; };
+		E2854F341DF64CF00006D1DB /* SafeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeObject.m; sourceTree = "<group>"; };
+		E2854F361DF65CC80006D1DB /* UIImage+Barrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Barrage.h"; sourceTree = "<group>"; };
+		E2854F371DF65CC80006D1DB /* UIImage+Barrage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Barrage.m"; sourceTree = "<group>"; };
+		E2854F391DF65DCD0006D1DB /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		E2854F3B1DF660E80006D1DB /* AdvancedBarrageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedBarrageController.h; sourceTree = "<group>"; };
+		E2854F3C1DF660E80006D1DB /* AdvancedBarrageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedBarrageController.m; sourceTree = "<group>"; };
+		E2854F3E1DF665860006D1DB /* BarrageWalkImageTextSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageWalkImageTextSprite.h; sourceTree = "<group>"; };
+		E2854F3F1DF665860006D1DB /* BarrageWalkImageTextSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageWalkImageTextSprite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6EAB237E2F0869239CE5301 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02CD721B9F746A1B1F02BDD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F761C697711D0DAB03E855C /* Pods.debug.xcconfig */,
+				B79CD5B9D6C729AFB2CC0A29 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2782D2F841136061CA725BE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48AC7A7008EBF14D550D5B96 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2315A3E1DF5604200DF1866 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +121,8 @@
 				E2315A631DF5604200DF1866 /* BarrageRenderer_demoTests */,
 				E2315A6E1DF5604200DF1866 /* BarrageRenderer_demoUITests */,
 				E2315A481DF5604200DF1866 /* Products */,
+				02CD721B9F746A1B1F02BDD3 /* Pods */,
+				2782D2F841136061CA725BE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +143,15 @@
 				E2315A4E1DF5604200DF1866 /* AppDelegate.m */,
 				E2315A501DF5604200DF1866 /* ViewController.h */,
 				E2315A511DF5604200DF1866 /* ViewController.m */,
+				E2854F3B1DF660E80006D1DB /* AdvancedBarrageController.h */,
+				E2854F3C1DF660E80006D1DB /* AdvancedBarrageController.m */,
+				E2854F3E1DF665860006D1DB /* BarrageWalkImageTextSprite.h */,
+				E2854F3F1DF665860006D1DB /* BarrageWalkImageTextSprite.m */,
+				E2854F361DF65CC80006D1DB /* UIImage+Barrage.h */,
+				E2854F371DF65CC80006D1DB /* UIImage+Barrage.m */,
+				E2854F391DF65DCD0006D1DB /* avatar.png */,
+				E2854F331DF64CF00006D1DB /* SafeObject.h */,
+				E2854F341DF64CF00006D1DB /* SafeObject.m */,
 				E2315A531DF5604200DF1866 /* Main.storyboard */,
 				E2315A561DF5604200DF1866 /* Assets.xcassets */,
 				E2315A581DF5604200DF1866 /* LaunchScreen.storyboard */,
@@ -147,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2315A741DF5604200DF1866 /* Build configuration list for PBXNativeTarget "BarrageRenderer_demo" */;
 			buildPhases = (
+				EE42128A9283ACAACBCC5156 /* Check Pods Manifest.lock */,
 				E2315A431DF5604200DF1866 /* Sources */,
 				E2315A441DF5604200DF1866 /* Frameworks */,
 				E2315A451DF5604200DF1866 /* Resources */,
+				91E5139B52171ADFE26658DE /* Embed Pods Frameworks */,
+				9EF94A380BFBC1DA65EAE83B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2854F3A1DF65DCD0006D1DB /* avatar.png in Resources */,
 				E2315A5A1DF5604200DF1866 /* LaunchScreen.storyboard in Resources */,
 				E2315A571DF5604200DF1866 /* Assets.xcassets in Resources */,
 				E2315A551DF5604200DF1866 /* Main.storyboard in Resources */,
@@ -271,12 +322,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91E5139B52171ADFE26658DE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EF94A380BFBC1DA65EAE83B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE42128A9283ACAACBCC5156 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2315A431DF5604200DF1866 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E2315A521DF5604200DF1866 /* ViewController.m in Sources */,
+				E2854F351DF64CF00006D1DB /* SafeObject.m in Sources */,
+				E2854F401DF665860006D1DB /* BarrageWalkImageTextSprite.m in Sources */,
+				E2854F3D1DF660E80006D1DB /* AdvancedBarrageController.m in Sources */,
+				E2854F381DF65CC80006D1DB /* UIImage+Barrage.m in Sources */,
 				E2315A4F1DF5604200DF1866 /* AppDelegate.m in Sources */,
 				E2315A4C1DF5604200DF1866 /* main.m in Sources */,
 			);
@@ -425,6 +528,7 @@
 		};
 		E2315A751DF5604200DF1866 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F761C697711D0DAB03E855C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S8KC3FX9WD;
@@ -437,6 +541,7 @@
 		};
 		E2315A761DF5604200DF1866 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79CD5B9D6C729AFB2CC0A29 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S8KC3FX9WD;
@@ -516,6 +621,7 @@
 				E2315A761DF5604200DF1866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2315A771DF5604200DF1866 /* Build configuration list for PBXNativeTarget "BarrageRenderer_demoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +630,7 @@
 				E2315A791DF5604200DF1866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2315A7A1DF5604200DF1866 /* Build configuration list for PBXNativeTarget "BarrageRenderer_demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +639,7 @@
 				E2315A7C1DF5604200DF1866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

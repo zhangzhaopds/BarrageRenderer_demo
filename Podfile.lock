@@ -1,0 +1,16 @@
+PODS:
+  - BarrageRenderer (1.7.0)
+  - MLEmojiLabel (1.0.0):
+    - TTTAttributedLabel (~> 1.13.4)
+  - TTTAttributedLabel (1.13.4)
+
+DEPENDENCIES:
+  - BarrageRenderer (~> 1.7.0)
+  - MLEmojiLabel (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  BarrageRenderer: 94dd70c2ddfb399c15560301d79c3a8d9c891684
+  MLEmojiLabel: ceeab17d10d296cc00636bf201c8da597fdede10
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+
+COCOAPODS: 0.39.0
